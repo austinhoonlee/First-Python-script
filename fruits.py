@@ -1,5 +1,3 @@
-
-
 fruits = "apply, orange, banana, strawberry, grape"
 
 # Give me a list of fruit in sorted order saying
@@ -23,7 +21,10 @@ fruit_list.sort()
 
 print "The fruits are"
 for fruit in fruit_list:
-    print "An %s." % fruit.capitalize()
+    if fruit[0] in 'aeiou':   
+        print "An %s" %fruit.capitalize()
+    else:
+        print "A %s" %fruit.capitalize()
 
 words = []
 for word in "IM YELLING AT YOU".lower().split():

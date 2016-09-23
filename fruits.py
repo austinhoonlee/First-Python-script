@@ -22,9 +22,9 @@ fruit_list.sort()
 print "The fruits are"
 for fruit in fruit_list:
     if fruit[0] in 'aeiou':   
-        print "An %s" %fruit.capitalize()
+        print "An %s." %fruit.capitalize()
     else:
-        print "A %s" %fruit.capitalize()
+        print "A %s." %fruit.capitalize()
 
 words = []
 for word in "IM YELLING AT YOU".lower().split():
